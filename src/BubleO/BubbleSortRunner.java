@@ -2,7 +2,7 @@ package BubleO;
 
 import java.util.Arrays;
 
-public class BubleSortRunner {
+public class BubbleSortRunner {
 
     public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class BubleSortRunner {
         System.out.println(Arrays.toString(arr));
         System.out.println("************************");
         System.out.println("BubbleSort işlemi sonrası : ");
-        BubleSort.bubbleSort(arr);
+        BubbleSort.bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
         System.out.println("***************************");
     }

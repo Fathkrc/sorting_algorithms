@@ -1,18 +1,16 @@
-package MergeSort;
+package ShellSort;
 
 import java.util.Arrays;
 
-public class MergeSortRunner {
-
+public class ShellSortRun {
 
     public static void main(String[] args) {
         int arr[] = {5,3,4,2};
-        System.out.println("MergeSort Öncesi Array : ");
+        System.out.println("ShellSort Öncesi Array : ");
         System.out.println(Arrays.toString(arr));
         System.out.println("*************************");
-        System.out.println("MergeSort Sonrası Array : ");
-        MergeSort.mergeSort(arr,0,arr.length-1);
+        System.out.println("ShellSort Sonrası Array : ");
+        ShellSort.shellSort(arr);
         System.out.println(Arrays.toString(arr));
-
     }
 }
